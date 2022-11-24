@@ -6,7 +6,8 @@ import uz.khujamurod.sfgdi.services.GreetingService;
 
 @Controller
 public class ConstructorInjectedController {
-    private GreetingService greetingService;
+    private final GreetingService greetingService;
+
 
     public ConstructorInjectedController(@Qualifier("constructorGreetingService") GreetingService greetingService) {
         this.greetingService = greetingService;

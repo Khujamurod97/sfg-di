@@ -1,0 +1,8 @@
+guru:
+  jms:
+    username: Khujamurod
+    password: somepass2
+    dburl: testurl2
+  username: John
+  password: somepass
+  dburl: testurl

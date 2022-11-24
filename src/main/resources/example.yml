@@ -1,0 +1,30 @@
+#this is a comment
+
+name: JOhn
+
+names: #comment
+  - Ali
+  - Vali
+
+pound_sign: "#"
+
+book:
+  author: Khujamurod
+  publisher: random pub
+
+truth: yes #true, True
+
+not_truth: no #No, false, FALSE
+
+string_val: "this is it's quote"
+
+colon_string: "my courses: one two three"
+
+include_new_lines: |
+  asdasd
+  asd asdasdasda
+  asdasda asda asd
+
+exclude_new_lines: >
+  asdas dasd asd  ads as
+  asda asdasd

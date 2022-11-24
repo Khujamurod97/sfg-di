@@ -44,4 +44,12 @@ public class LifeCycleDemoBean implements InitializingBean, DisposableBean, Bean
     public void postConstruct() {
         System.out.println("## The post constructor annotation method has been called");
     }
+
+    public void beforeInit(){
+        System.out.println("## - Before Init - Called by Bean Post Processor");
+    }
+
+    public void afterInit(){
+        System.out.println("## - After init called by Bean Post Processor");
+    }
 }
